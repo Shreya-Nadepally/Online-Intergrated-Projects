@@ -1,0 +1,71 @@
+body{
+    background-image: url('Simple Phone Wallpaper on Picture Background (1).png');
+}
+.side{
+    background-image: url(blur.jpg);
+    opacity: 80%;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 1120px;
+    top: 300px;
+    border-radius: 5px;
+}
+.sign label{
+    top: 40px;
+    left: 30px;
+}
+.side2 {
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+.side2 h3{
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+.side2 label{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.side2 input{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    border-radius: 5px;
+}
+.side2 select{
+    position: relative;
+    left: 50px; 
+    top: 30px;
+}
+.side2 button{
+    position: relative;
+    left: 300px; 
+    top: 30px;
+}
+.one label{
+    position: relative;
+    right: 100px;
+}
+.side button{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+.side label{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.side input{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}

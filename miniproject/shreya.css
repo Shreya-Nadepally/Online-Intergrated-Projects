@@ -1,0 +1,265 @@
+
+  body{
+    background-color: black;
+    height: 100%;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #2196F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #2196F3;
+
+    color: white;
+  }
+  @media screen and (max-width: 1000px) {
+    .topnav a {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    
+  }
+h1{
+    position: relative;
+    color: black;
+    display: flex;
+    left:100px;
+}
+.topnav{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: lavender;
+
+}
+.topnav h1:hover{
+    color: #2196F3;
+}
+input{
+    position: relative;
+    height: 30px;
+    width: 300px;
+    top: 4px;
+    left: 250px;
+    border-radius: 50px;
+   
+}
+.topnav2{
+  position: relative;
+  display: flex;
+  align-items: center;
+  top:0px;
+  
+  width: 100%;
+  height: 60px;
+  background-color:white ;
+}
+.topnav2 a{
+  text-decoration: none;
+  height: 50px;
+  padding: 30px;
+  color: black;
+  background-size: 10px;
+  position: relative;
+  align-items: center;
+  top: 15px;
+}
+.topnav2 select{
+  width: 200px;
+  position: relative;
+  top: 4px;
+  left:450px;
+ 
+
+} 
+.topnav2 a:hover{
+ 
+  height: 3px;
+  position: relative;
+  align-items: center;
+  top: 0px;;
+
+  box-shadow: #2196F3;
+
+  background-color: #2196F3;
+  color: whitesmoke
+}
+.log a{
+  text-decoration: none;
+  
+  padding: 10px;
+  color: black;
+  position: relative;
+  left: 1000px;
+  bottom: 40px;
+  font-size: 20px;
+}
+.log a:hover{
+  background-color: lightgreen;
+}
+.side {
+  display: grid;
+  grid-gap: 10px;
+  color: azure;
+  width: 200px;
+  height:800px;
+  overflow-y: scroll; 
+}
+.side a{
+  text-decoration: none;
+  color: #faebd7;
+}
+.side a:hover{
+  color: lightgreen;
+}
+.side a.har:hover{
+  color: lightpink;
+}
+.img1{
+  position:absolute;
+  top: 200px;
+  left: 300px;
+  display: grid;
+  grid-row-gap: 90px;
+}
+.img1 img{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+}
+.img1 img:hover{
+  border-radius: 20px;
+}
+.img2{
+  position: absolute;
+  top:200px;
+  left: 590px;
+  display: grid;
+  grid-row-gap: 90px;
+}
+.img2 img{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+}
+.img2 img:hover{
+  border-radius: 20px;
+}
+.img3{
+  position: absolute;
+  top:200px;
+  left: 880px;
+  display: grid;
+  grid-row-gap: 90px;
+}
+.img3 img{
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+}
+.img3 img:hover{
+  border-radius: 20px;
+}
+.plinks1{
+  position:absolute;
+  top: 425px;
+  left: 305px;
+  display: grid;
+  grid-row-gap: 265px;
+
+}
+.plinks1 a{
+  text-decoration: none;
+  font-family:  'Arial Narrow Bold';
+  color: white;
+  width: 200px;
+}
+.plinks1 a:hover{
+  border:2px solid white;
+  border-radius: 3px;
+  background-color: #000080;
+}
+.plinks2{
+  position:absolute;
+  top: 425px;
+  left: 595px;
+  display: grid;
+  grid-row-gap: 275px;
+
+}
+.plinks2 a{
+  text-decoration: none;
+  font-family:  'Arial Narrow Bold';
+  color: white;
+  width: 200px;
+}
+.plinks2 a:hover{
+  border:2px solid white;
+  background-color: #000080;
+  border-radius: 3px;
+}
+.plinks3{
+  position:absolute;
+  top: 425px;
+  left: 880px;
+  display: grid;
+  grid-row-gap: 280px;
+
+}
+.plinks3 a{
+  text-decoration: none;
+  font-family:  'Arial Narrow Bold';
+  color: white;
+  width: 200px;
+}
+.plinks3 a:hover{
+  border:2px solid white;
+  background-color: #000080;
+  border-radius: 3px;
+}
+.ai{
+  position: fixed;
+  top:650px;
+  left: 1300px;
+}
+.ai img{
+  height: 100px;
+  width: 100px;
+  border: 5px solid bisque;
+  border-radius: 70%;
+}
+.ai img:hover{
+  border-radius: 5px;
+  border: 5px solid whitesmoke;
+}
+.ai a{
+  position: fixed;
+  right: 62px;
+  top: 770px;
+  text-decoration: none;
+  font-weight: 1000;
+  color: bisque;
+}
+.realtime{
+  width: 260px;
+  height: 800px;
+  border: 5px solid white;
+  position: relative;
+  left: 1175px;
+  bottom:  800px;
+}
